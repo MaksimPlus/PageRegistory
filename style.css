@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/*HEADER*/
+.header {
+  padding-top: 40px;
+  padding-left: 130px;
+}
+
+.registration {
+  padding-top: 7px;
+}
+.emailform {
+  padding-top: 40px;
+  padding-left: 130px;
+}
+.email {
+  margin-top: 5px;
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+/*MAIN*/
+
+.cont_org {
+  padding-top: 10px;
+  padding-left: 75px;
+}
+
+.org1 {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lorg1 {
+  margin-right: 20px;
+}
+
+.org2 {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lorg2 {
+  margin-right: 20px;
+}
+
+.cont_org2 {
+  margin-top: 10px;
+  margin-left: 84px;
+}
+
+.town {
+  padding-top: 10px;
+  padding-left: 118px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.town_line {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.name_add {
+  padding-top: 20px;
+  padding-left: 149px;
+  margin-right: 20px;
+}
+.name_ad {
+  margin-left: 10px;
+  padding-right: 20px;
+}
+.adress_line {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.conty {
+  margin-top: 10px;
+}
+
+.phone_name {
+  padding-top: 20px;
+  padding-left: 131px;
+  margin-right: 20px;
+}
+.phone_line {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.site {
+  padding-top: 20px;
+  padding-left: 157px;
+  margin-right: 20px;
+}
+
+.site_line {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.vid {
+  padding-top: 20px;
+  margin-left: 150px;
+}
+
+.vid2 {
+  padding-top: 20px;
+  margin-left: 5.3px;
+}
+.vid3 {
+  padding-top: 20px;
+  margin-left: 4.5px;
+}
+.vid4 {
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.vid5 {
+  padding-top: 20px;
+  margin-left: 131px;
+}
+
+.proch_name {
+  padding-top: 20px;
+  padding-left: 138px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.proch {
+  border: 3px;
+  box-shadow: 0 0 15px 6px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.but {
+  margin: 20px;
+  background-color: rgb(25, 63, 99);
+  width: 200px;
+  height: 50px;
+  color: aliceblue;
+  border: solid 2px black;
+  text-align: center;
+  text-transform: uppercase;
+}

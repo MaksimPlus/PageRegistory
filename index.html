@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registory page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="head">
+            <div class="container">
+                <h1>Регистрация</h1>
+                <div class="header">
+                    <h3>Вы регистрируетесь как</h3>
+                    <p class="registration"><input id="buy" type="radio" name="questions" onclick="visibiliaty" />Покупатель</p>
+                    
+                    <p class="registration"><input type="radio" name="questions" data-target="site" />Поставщик</p>
+                </div>
+                <div>
+                    <form action="#" method="" enctype="multipart/form-data">
+                        <div class="emailform">
+                            <label>Эл.почта</label><input class="email" type="email" name="" placeholder="Your email">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main class="org">
+            <div class="container">
+                <form action="#" method="" enctype="multipart/form-data">
+                    <div >
+                        <div class="org_name">
+                            <p><h3 class="name_org">Название организации</h3></p>
+                            <div class="cont_org">
+                                <p class="cont_org1"><label class="lorg1">ИП или Юр.лицо</label><input class="org1" type=”text” name="" placeholder=""></p>
+                                <p class="cont_org2"><label class="lorg1">ИНН</label><input class="org2" type=”text” name="" placeholder=""></p>
+                            </div>
+                        </div>
+
+                        <div class="adress">
+                            <p><h3>Фактический адрес</h3></p>
+                            <p><label class="town">Ваш город</label><input class="town_line" type=”text” name="" placeholder=""></p>
+                            <p class="conty"> <label class="name_add">Улица</label><input class="adress_line" type=”text” name="" placeholder="">
+                                <label class="name_ad">Дом</label><input class="adress_line" type=”text” name="" placeholder="">
+                                <label class="name_ad">Офис</label><input class="adress_line" type=”text” name="" placeholder=""></p>
+                                <p class="conty"><label class="phone_name">Телефон</label><input class="phone_line" type="text" name="" placeholder="+7"></p>
+                                <p class="conty"><label class="site">Сайт</label><input class="site_line" type=”text” name="" placeholder=""></p>
+                        </div>
+
+                        <div class="vsb">
+                            <h3>Виды деятельности</h3>
+                            <div class="name_vid">
+                                    <p class="conty">Магазин<input class="vid" type="checkbox" name="a" value="1417"></p>
+                                    <p class="conty">Региональная сеть магазинов<input class="vid2" type="checkbox" name="a" value="1680" > </p>
+                                    <p class="conty">Федеральная сеть магазинов <input class="vid3" type="checkbox" name="a" value="1883" ></p>
+                                    <p class="conty">Интернет-магазин <input class="vid4" type="checkbox" name="a" value="1934"></p>
+                                    <p class="conty">Автосервис<input class="vid5" type="checkbox" name="a" value="2010"></p>
+                            </div>
+                            <p class="conty"><label class="proch_name">Прочее</label><input class="proch" type=”text” name="" placeholder=""></p>
+                        </div>
+
+                        <button class="but" accesskey="Enter"  autofocus>Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        
+        <script src="visibiliaty" async defer>
+            document.getElementById('buy').onclick = function(e) {
+            const btn = e.target.closest('.delete');
+            if (!btn) {
+            return;
+            }
+
+            btn.parentElement.remove();
+            btn.closest('li').remove();
+}       </script>
+    </body>
+</html>
+     
